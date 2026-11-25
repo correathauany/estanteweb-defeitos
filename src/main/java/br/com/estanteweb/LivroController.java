@@ -87,7 +87,6 @@ public class LivroController {
         if (session.getAttribute("usuarioLogado") == null) {
         return "redirect:/login";
     }
-        }
 
         Livro livro = new Livro();
         livro.setId(id);
